@@ -6,17 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Team List</title>
 
-    <!-- this is the bootstrap CSS -->
+    <!-- BOOTSTRAP CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar" style="margin-bottom: 30px; background-color: blueviolet;">
+    <nav
+      class="navbar"
+      style="margin-bottom: 30px; background-color: blueviolet;"
+    >
       <a class="navbar-brand text-light" href="#">
         <img
           src="/docs/4.3/assets/brand/bootstrap-solid.svg"
@@ -25,28 +33,41 @@
           class="d-inline-block align-top"
           alt=""
         />
-        Bootstrap
+        <p class="text-center">
+          Team List
+        </p>
       </a>
     </nav>
 
-    <!-- this is the CONTAINER for the cards -->
+    
+    
+    <!-- CONTAINER -->
     <div class="container">
+        <!-- JUMBOTRON -->
+        <div class="jumbotron">
+            <div class="container">
+              <h1 class="display-4" style="font-weight: bold;">Team List</h1>
+              <p class="lead">A quick summary of all the team members and info</p>
+            </div>
+          </div>
       <div class="row">
         <div class="col-sm">
-          <!-- this is the CARD main element -->
+          <!-- CARD MAIN ELEMENT -->
           <div
             class="card text-left shadow p-3 mb-5 bg-light rounded"
-            style="width: 30%;"
+            style="width: 325px;"
           >
             <div
               class="card-header rounded bg-warning"
               style="color: white; font-weight: bolder; font-size: 1.5em;"
             >
-              name
+              <i class="fa fa-user"></i>
+              Name
               <br />
-              Job Title
+              <i class="fa fa-briefcase"></i>
+              Manager
             </div>
-            <!-- this is the BODY of the card element -->
+            <!-- CARD BODY -->
             <div class="card-body">
               <ul class="list-group">
                 <li class="list-group-item">ID:</li>
@@ -56,18 +77,71 @@
             </div>
           </div>
         </div>
+
+        
+        <div class="col-sm">
+          <!-- CARD MAIN ELEMENT -->
+          <div
+            class="card text-left shadow p-3 mb-5 bg-light rounded"
+            style="width: 325px;"
+          >
+            <div
+              class="card-header rounded bg-warning"
+              style="color: white; font-weight: bolder; font-size: 1.5em;"
+            >
+              <i class="fa fa-user"></i>
+              Name
+              <br />
+              <i class="fa fa-briefcase"></i>
+              Engineer
+            </div>
+            <!-- CARD BODY -->
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item">ID:</li>
+                <li class="list-group-item">Email:</li>
+                <li class="list-group-item">Github:</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+            <!-- CARD MAIN ELEMENT -->
+            <div
+              class="card text-left shadow p-3 mb-5 bg-light rounded"
+              style="width: 325px;"
+            >
+              <div
+                class="card-header rounded bg-warning"
+                style="color: white; font-weight: bolder; font-size: 1.5em;"
+              >
+                <i class="fa fa-user"></i>
+                Name
+                <br />
+                <i class="fa fa-briefcase"></i>
+                Intern
+              </div>
+              <!-- CARD BODY -->
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item">ID:</li>
+                  <li class="list-group-item">Email:</li>
+                  <li class="list-group-item">School:</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
       </div>
       <!-- this is the END of the ROW -->
-    </div>
+
+      
+
+      </div>
     <!-- this is the END of the CONTAINER -->
 
-    <!-- <ul class="list-group list-group-flush">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Vestibulum at eros</li>
-      </ul> -->
-
-    <!-- this is the bootstrap JS -->
+    <!-- BOOTSTRAP JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
